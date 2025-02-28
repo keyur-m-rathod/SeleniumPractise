@@ -9,7 +9,7 @@ public class ConditionalMethods {
 
 	public static void main(String[] args) {
 	
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();   //initialize web driver
 		
 		driver.get("https://demo.nopcommerce.com/register");
 		driver.manage().window().maximize();
